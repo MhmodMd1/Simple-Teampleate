@@ -1,0 +1,328 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin:  auto;
+}
+
+.header  {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header h3 {
+    margin: 0;
+}
+
+.header ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.header ul li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.section {
+    height: 200px;
+    background-color: #F6F6F6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section h1 {
+    margin: 0;
+}
+
+.section h1 span {
+    color: #03A9F4;
+}
+
+.section p {
+    line-height: 25px;
+}
+
+.info {
+    height: 250px;
+    background-color: white;
+}
+
+.info .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info h3 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.info img {
+    margin-top: 30px;
+}
+
+
+.info .col {
+    width: calc(100% / 3);
+    text-align: center;
+    height: 300px;
+}
+
+.about {
+    background-color: #F6F6F6;
+    height: 300px;
+}
+
+.about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about img {
+    margin-top: 50px;
+}
+
+.about h1 {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.about .text {
+    width: 40%;
+}
+
+.cards {
+    height: 150px;
+}
+
+.cards .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cards .col {
+    width: 25%;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+
+
+.cards .col:first-child {
+    width: 25%;
+    background-color: #B33939;
+}
+
+.cards .col:nth-child(2) {
+    width: 25%;
+    background-color: #227093;
+}
+
+.cards .col:last-child {
+    width: 25%;
+    background-color: #218C74;
+}
+
+.cards .col h2 {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.cards .col p {
+    font-size: 12px;
+}
+
+.skill {
+    height: 450px;
+    background-color: #F6F6F6;
+}
+
+
+.skill .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill .process-one h2 {
+    position: absolute;
+}
+
+.skill .process h2 {
+    position: absolute;
+    top: -15%;
+    left: -10%;
+}
+.skill .process-one  {
+    position: relative;
+    width: 80%;
+    background-color: black;
+    margin-left: 60px;
+}
+
+.skill .process {
+    position: relative;
+    width: 80%;
+    background-color: white;
+    margin-left: 100px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+
+.skill h1 {
+    text-align: center;
+    margin: 40px;
+}
+
+.skill .process-three h2 {
+    left: -16%;
+}
+
+.skill .process-four h2 {
+    left: -8%;
+}
+
+.skill .process-two h2 {
+    left: -8%;
+}
+
+.skill .process-five h2 {
+    left: -11%;
+}
+
+.skill .process-one::after{
+    content: "";
+    width: 60%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #03A9F4;
+    height: 100%;
+}
+
+.skill .process-one::before {
+    content: '60%';
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    color: white;
+    z-index: 1;
+}
+
+.skill .process-two::after{
+    content: "";
+    width: 70%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #03A9F4;
+    height: 100%;
+}
+
+.skill .process-two::before {
+    content: '70%';
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    color: white;
+    z-index: 1;
+}
+
+.skill .process-three::after{
+    content: "";
+    width: 80%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #03A9F4;
+    height: 100%;
+}
+
+.skill .process-three::before {
+    content: '80%';
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    color: white;
+    z-index: 1;
+}
+
+.skill .process-four::after{
+    content: "";
+    width: 65%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #03A9F4;
+    height: 100%;
+}
+
+.skill .process-four::before {
+    content: '65%';
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    color: white;
+    z-index: 1;
+}
+
+.skill .process-five::after{
+    content: "";
+    width: 90%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #03A9F4;
+    height: 100%;
+}
+
+.skill .process-five::before {
+    content: '90%';
+    position: absolute;
+    top: 25%;
+    left: 85%;
+    color: white;
+    z-index: 1;
+}
+
+.footer {
+    height: 50px;
+    background-color: black;
+    color:  white;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
